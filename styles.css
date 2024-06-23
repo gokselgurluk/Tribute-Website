@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: url('feather-cursor.png'), auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+header .header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 5;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size:300%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.section p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.content2 p {
+    color: #adadad;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.content2 h2 {
+    color: #f4f4f4;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content2 {
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-section {
+    flex: 1;
+    margin-right: 20px;
+}
+.image-section3 {
+    width: 150px;
+    height: auto;
+    
+}
+.main-image {
+    max-width: 100%;
+    height: auto;
+}
+.main-image3 {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.text-section {
+    flex: 2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
